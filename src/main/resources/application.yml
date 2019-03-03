@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: khs
+    password: 2486
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    database: oracle
+
+  main:
+    allow-bean-definition-overriding: true
+
+#  batch:
+#    job:
+#      enabled: true
+
+#spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+#spring.batch.job.enabled=false
